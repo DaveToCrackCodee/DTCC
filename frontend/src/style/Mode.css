@@ -1,0 +1,67 @@
+:root {
+  --background-color-light: white;
+  --background-color-dark: rgb(28, 28, 28);
+  --font-color-light: black;
+  --font-color-dark: white;
+  --background-image-bg1-light: url("../assets/background/Home.png");
+  --background-image-bg2-light: url("../assets/background/mock.png");
+  --background-image-bg3-light: url("../assets/background/writer.png");
+  --background-image-bg4-light: url("../assets/background/akash.png");
+  --background-image-contestslist-light: url("../assets/background/contests-light.png");
+  
+  
+  --background-image-bg1-dark: url("../assets/background/Home-dark.png");
+  --background-image-bg2-dark: url("../assets/background/mock-dark.png");
+  --background-image-bg3-dark: url("../assets/background/writer-dark.png");
+  --background-image-bg4-dark: url("../assets/background/akash-dark.png");
+  --background-image-contestslist-dark: url("../assets/background/contests-dark.png");
+  
+  --background-phone-bg1-light: url("../assets/background/1.png");
+  --background-phone-bg2-light: url("../assets/background/2.png");
+  --background-phone-bg3-light: url("../assets/background/3.png");
+  --background-phone-bg4-light: url("../assets/background/4.png");
+  --background-phone-contestslist-light: url("../assets/background/contests-phone-light.png");
+
+  --background-phone-bg1-dark: url("../assets/background/1-dark.png");
+  --background-phone-bg2-dark: url("../assets/background/2-dark.png");
+  --background-phone-bg3-dark: url("../assets/background/3-dark.png");
+  --background-phone-bg4-dark: url("../assets/background/4-dark.png");
+  --background-phone-contestslist-dark: url("../assets/background/contests-phone-dark.png");
+}
+
+
+.light-mode {
+  --background-color: var(--background-color-light);
+  --font-color: var(--font-color-light);
+  --background-image-bg1: var(--background-image-bg1-light);
+  --background-image-bg2: var(--background-image-bg2-light);
+  --background-image-bg3: var(--background-image-bg3-light);
+  --background-image-bg4: var(--background-image-bg4-light);
+
+  --background-image-contestslist: var(--background-image-contestslist-light);
+  --background-phone-contestslist: var(--background-phone-contestslist-light);
+
+  --background-phone-bg1: var(--background-phone-bg1-light);
+  --background-phone-bg2: var(--background-phone-bg2-light);
+  --background-phone-bg3: var(--background-phone-bg3-light);
+  --background-phone-bg4: var(--background-phone-bg4-light);
+  
+}
+
+.dark-mode {
+  --background-color: var(--background-color-dark);
+  --font-color: var(--font-color-dark);
+  --background-image-bg1: var(--background-image-bg1-dark);
+  --background-image-bg2: var(--background-image-bg2-dark);
+  --background-image-bg3: var(--background-image-bg3-dark);
+  --background-image-bg4: var(--background-image-bg4-dark);
+
+  --background-image-contestslist: var(--background-image-contestslist-dark);
+  --background-phone-contestslist: var(--background-phone-contestslist-dark);
+
+  --background-phone-bg1: var(--background-phone-bg1-dark);
+  --background-phone-bg2: var(--background-phone-bg2-dark);
+  --background-phone-bg3: var(--background-phone-bg3-dark);
+  --background-phone-bg4: var(--background-phone-bg4-dark);
+}
+
