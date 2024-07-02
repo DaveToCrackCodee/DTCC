@@ -110,7 +110,7 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
           <Link to="/">Home</Link>
           <Link to="/dsa">DSA</Link>
           <Link to="/contestcoding">Contest Coding</Link>
-          <Link href="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA">
+          <Link to="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA">
             Youtube
           </Link>
           {isLoggedIn && (
