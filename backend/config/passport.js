@@ -11,7 +11,7 @@ export default function initializePassport(passport) {
       {
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: "/auth/callback",
+        callbackURL: "https://dtcc.onrender.com/auth/callback",
         passReqToCallback: true,
       },
       async (req, accessToken, refreshToken, profile, done) => {
