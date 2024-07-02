@@ -38,7 +38,7 @@ app.get(
   (req, res) => {
     // Successful authentication, send access token back to frontend
     console.log("backend access token:-  ", req.accessToken);
-    res.redirect(`https://dtcc.onrender.com/auth/callback/${req.accessToken}`);
+    res.redirect(`https://dave-to-crack-code.vercel.app/auth/callback/${req.accessToken}`);
   }
 );
 
