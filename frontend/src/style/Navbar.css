@@ -35,7 +35,7 @@
 
 .headerelements a {
   font-size: larger;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive;
+  /* font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive; */
   color: var(--font-color);
   text-decoration: none;
 }
@@ -73,7 +73,7 @@
   height: 9%;
   display: flex;
   transition: 0.3s;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  /* font-family: Comic Sans MS, Comic Sans, cursive; */
   /* font-weight: bold; */
   font-size: larger;
   color: var(--font-color);

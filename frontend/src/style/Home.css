@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
   padding-top: 5%;
   padding-bottom: 5%;
   
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive;
+    /* font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive; */
 
   color: white;
   /* background-color: var(--background-color); */
@@ -123,7 +123,7 @@ body::-webkit-scrollbar {
   backdrop-filter: blur(20px);
   display: block;
   width: 70%;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive;
+  /* font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive; */
   font-size: larger;
   font-weight: 500;
   margin-top: 3%;
@@ -198,7 +198,7 @@ body::-webkit-scrollbar {
 /* Introduction about akash dave */
 .welcome {
   z-index: 2;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  /* font-family: Comic Sans MS, Comic Sans, cursive; */
   font-size: large;
   font-weight: bold;
   width: 40%;
@@ -224,7 +224,7 @@ body::-webkit-scrollbar {
   backdrop-filter: blur(20px);
   box-shadow: 0px 0px 5px #c00202;
   border-radius: 20px;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive;
+  /* font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive; */
   line-height: 1;
   font-size: larger;
 }

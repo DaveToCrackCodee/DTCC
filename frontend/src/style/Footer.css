@@ -1,6 +1,6 @@
 .footer {
 	z-index: 2;
-	font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive;
+	/* font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Comic Neue', cursive; */
     background-color: var(--background-color);
     color: var(--font-color);
 	display: flex;
