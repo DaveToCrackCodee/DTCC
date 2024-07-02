@@ -16,7 +16,7 @@ const Home = () => {
     event.preventDefault();
     try {
       // Redirect user to Google OAuth endpoint
-      window.location.href = "http://localhost:5000/auth";
+      window.location.href = `${baseURL}/auth`;
     } catch (error) {
       console.error("Error:", error);
       // Handle error
