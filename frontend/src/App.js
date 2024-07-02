@@ -11,7 +11,6 @@ import Sorting from "./pages/Sorting";
 import Searching from "./pages/Searching";
 import ContestCoding from "./pages/ContestCoding";
 import { Toaster } from "react-hot-toast";
-import LoginWithGoogle from "./component/LoginWithGoogle";
 import { Protected, Public } from "./middleware/auth.js";
 import MockInterview from "./pages/MockInterview.jsx";
 import Contribute from "./pages/Contribute.jsx";

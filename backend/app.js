@@ -13,7 +13,6 @@ import initializePassport from './config/passport.js';
 const app = express();
 
 
-
 initializePassport(passport);
 
 app.use(express.urlencoded({extended:true}))

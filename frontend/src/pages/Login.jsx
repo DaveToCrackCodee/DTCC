@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import "../style/Login.css";
 import logo from "../assets/logo/logo.png";
 import { Link } from "react-router-dom";
-import Signup from "./Signup";
-import axios from "axios";
-import toast from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
+// import Signup from "./Signup";
+// import axios from "axios";
+// import toast from "react-hot-toast";
+// import { useNavigate } from "react-router-dom";
+const baseURL = process.env.REACT_APP_API_BASE_URL;
 
 const Login = () => {
   // const navigate = useNavigate();
@@ -45,7 +46,7 @@ const Login = () => {
     event.preventDefault();
     try {
       // Redirect user to Google OAuth endpoint
-      window.location.href = "http://localhost:5000/auth/";
+      window.location.href = `${baseURL}/auth`;
     } catch (error) {
       console.error("Error:", error);
       // Handle error

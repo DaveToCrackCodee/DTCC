@@ -4,6 +4,7 @@ import "../style/ContestCoding.css";
 import "../style/Dsa.css";
 import { Link } from "react-router-dom";
 
+const baseURL = process.env.REACT_APP_API_BASE_URL;
 const ContestCoding = () => {
   const codechefContests = [];
   const leetcodeContests = [];
@@ -57,7 +58,7 @@ const ContestCoding = () => {
     useEffect(() => {
       const fetchCodeforcesContests = async () => {
         try {
-          const response = await axios.get('http://127.0.0.1:5000/api/codeforces/contest-list'); // Updated URL
+          const response = await axios.get(`${baseURL}/api/codeforces/contest-list`); // Updated URL
           console.log("resssssssss", response);
           if (response.data.status === "OK") {
             const filteredContests = response.data.result.filter(

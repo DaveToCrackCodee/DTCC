@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import LogoRevealPc from "../assets/videos/logo-reveal.mp4";
 import LogoRevealPhone from "../assets/videos/logo-reveal-phone.mp4";
 import Akash from "../assets/akash.png";
+
+const baseURL = process.env.REACT_APP_API_BASE_URL;
 const Home = () => {
   // window.location.reload()
   const token = localStorage.getItem("token");
@@ -14,7 +16,7 @@ const Home = () => {
     event.preventDefault();
     try {
       // Redirect user to Google OAuth endpoint
-      window.location.href = "http://localhost:5000/auth/";
+      window.location.href = "http://localhost:5000/auth";
     } catch (error) {
       console.error("Error:", error);
       // Handle error

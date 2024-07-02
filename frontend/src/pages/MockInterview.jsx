@@ -4,6 +4,7 @@ import "../style/Home.css";
 import "../style/MockInterview.css";
 import toast from "react-hot-toast";
 import { useNavigate } from 'react-router-dom';
+const baseURL = process.env.REACT_APP_API_BASE_URL;
 
 function MockInterview() {
   const navigate = useNavigate();
@@ -40,7 +41,7 @@ function MockInterview() {
 
       const { data } = await toast.promise(
         axios.post(
-          "http://127.0.0.1:5000/api/mock/mock_call",
+          `${baseURL}/api/mock/mock_call`,
           {
             topics: selectedTopics,
           },
@@ -91,7 +92,7 @@ function MockInterview() {
 
     try {
       const { data } = await toast.promise(
-        axios.post("http://127.0.0.1:5000/api/mock/feedback", 
+        axios.post(`${baseURL}/api/mock/feedback`, 
         formData, config),
         {
           pending: "Feedback Submission in progress...",
@@ -118,7 +119,7 @@ function MockInterview() {
       };
 
       const response = await axios.get(
-        "http://127.0.0.1:5000/api/mock//getMockHistory",
+        `${baseURL}/api/mock//getMockHistory`,
         { headers }
       );
       const mockhistory = response.data.data;
@@ -161,6 +162,7 @@ function MockInterview() {
             help everyone succeed in their interview preparations. Get ready to
             excel in your job placements and secure that dream role!
           </p>
+          <p style={{color: "red"}}>"Time is fixed at 10:00 PM, and the interview will be scheduled as early as the next day after you apply."</p>
           <form onSubmit={handleSubmit}>
             <p>
               <b>Select Topics:</b>

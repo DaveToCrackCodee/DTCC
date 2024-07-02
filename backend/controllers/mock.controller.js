@@ -49,12 +49,14 @@ const sendMockInterviewEmail = async ({
       subject: "Mock Interview Scheduled",
       html: `<p> Hello ${current_username}! <br>
       Your Mock Interview is Scheduled with ${name}, <br>
-      Now ${name} will take your interview with Your selected Topics and they are <br> ${topics}.<br>
+      <hr>
+      Now ${name} will take your interview with Your selected Topics and they are <br> ${topics}.<br><hr>
       And you will have to take ${name}'s Interview with topics given :- <br> ${prevtopics}.<br>
       <hr>
       Date: ${date} <br>
-      Time: 9:00AM
-      Join the meet with link :- ${link}
+      Time: 10:00PM <br>
+      <h3>Join the meet with link -</h3> <br>
+      ${link}
       </p>`,
     };
 
