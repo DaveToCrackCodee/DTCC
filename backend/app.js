@@ -31,7 +31,7 @@ app.use(passport.session())
 
 
 app.get(
-  "/auth/callback",
+  "https://dtcc.onrender.com/auth/callback",
   passport.authenticate("google", {
     failureRedirect: "/login", // Redirect to login page on failure
   }),
@@ -44,7 +44,7 @@ app.get(
 
 
 
-app.get('/auth',
+app.get('https://dtcc.onrender.com/auth',
 	passport.authenticate('google', {
 		scope: ['profile', 'email', 'https://www.googleapis.com/auth/calendar'],
 		accessType: 'offline',
