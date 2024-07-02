@@ -31,7 +31,7 @@ app.use(passport.session())
 
 
 app.get(
-  "https://dtcc.onrender.com/auth/callback",
+  "/auth/callback",
   passport.authenticate("google", {
     failureRedirect: "/login", // Redirect to login page on failure
   }),
