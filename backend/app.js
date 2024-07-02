@@ -44,7 +44,7 @@ app.get(
 
 
 
-app.get('https://dtcc.onrender.com/auth',
+app.get('/auth',
 	passport.authenticate('google', {
 		scope: ['profile', 'email', 'https://www.googleapis.com/auth/calendar'],
 		accessType: 'offline',
