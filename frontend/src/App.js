@@ -15,6 +15,7 @@ import { Protected, Public } from "./middleware/auth.js";
 import MockInterview from "./pages/MockInterview.jsx";
 import Contribute from "./pages/Contribute.jsx";
 import TokenCapture from "./pages/TokenCapture.jsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 
 
 const App = () => {
@@ -49,6 +50,15 @@ const App = () => {
                   <Login />
                 </Layout>
               </Public>
+            }
+          />
+
+          <Route
+            path="/privacy_policy"
+            element={
+                <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
+                  <PrivacyPolicy />
+                </Layout>
             }
           />
 

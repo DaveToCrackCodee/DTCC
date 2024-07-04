@@ -11,6 +11,7 @@ const ContestCoding = () => {
   const today = new Date();
 
   let currentDate = new Date(today);
+  currentDate.setDate(currentDate.getDate() - 1);
 
   while (codechefContests.length + leetcodeContests.length < 10) {
     currentDate.setDate(currentDate.getDate() + 1); // Move to the next day
@@ -59,12 +60,12 @@ const ContestCoding = () => {
       const fetchCodeforcesContests = async () => {
         try {
           const response = await axios.get(`${baseURL}/api/codeforces/contest-list`); // Updated URL
-          console.log("resssssssss", response);
+          // console.log("resssssssss", response);
           if (response.data.status === "OK") {
             const filteredContests = response.data.result.filter(
               (contest) => contest.phase === "BEFORE"
             );
-            console.log("dfgdfgdfgdfg ", filteredContests);
+            // console.log("dfgdfgdfgdfg ", filteredContests);
             setContests(filteredContests);
           } else {
             console.error("Error fetching contests:", response.data.comment);

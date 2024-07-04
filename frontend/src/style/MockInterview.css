@@ -10,7 +10,7 @@
 
 .mock_history {
   display: block;
-  width: 80%;
+  /* width: 80%; */
   border-radius: 20px;
   box-shadow: 0px 0px 5px var(--font-color);
   padding: 2%;
@@ -20,7 +20,7 @@
 }
 .mock_block {
   display: block;
-  width: 80%;
+  width: 90%;
   color: var(--font-color);
   /* font-family: Comic Sans MS, Comic Sans, cursive; */
   /* font-family: Comic Sans MS, Comic Sans, cursive; */
@@ -131,7 +131,7 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 861px) {
-  .mock_block {
+  .mock_block , .mock_history{
     width: 90%;
     font-size: medium;
     line-height: 120%;

@@ -25,14 +25,14 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
     return token ? jwtDecode(token) : "";
   });
 
-  console.log("actual token - ",token);
+  // console.log("actual token - ",token);
 
   // Check if the user is logged in
   const isLoggedIn = !!token;
 
   // Log the current state for debugging
-  console.log("navbar token - ", localStorage.getItem("token"));
-  console.log("isLoggedIn in navbar -", isLoggedIn);
+  // console.log("navbar token - ", localStorage.getItem("token"));
+  // console.log("isLoggedIn in navbar -", isLoggedIn);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -41,7 +41,7 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
   };
 
   useEffect(() => {
-    console.log("Token changed:", token);
+    // console.log("Token changed:", token);
   }, [token,user]);
 
   return (

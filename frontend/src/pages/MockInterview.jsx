@@ -125,7 +125,7 @@ function MockInterview() {
       const mockhistory = response.data.data;
       if (response.status === 200) {
         // Assuming the response.data contains the array of journals
-        console.log("mock response:- ", mockhistory.data);
+        // console.log("mock response:- ", mockhistory.data);
         setMockHistory(mockhistory.data);
         toast.success("Data Fetched Successfully");
       } else {

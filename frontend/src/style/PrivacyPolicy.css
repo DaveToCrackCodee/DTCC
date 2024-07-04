@@ -1,0 +1,35 @@
+.privacy-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    /* text-align: center; */
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: max-content;
+}
+
+.privacy-data{
+   text-align: left;
+   font-size: large;
+   line-height: 1.9;
+    height: 100%;
+    width: 80%;
+}
+
+.privacy-data ul{
+    list-style-type: disc; /* Ensure the list-style-type is disc */
+  }
+
+ .privacy-data li::marker {
+    font-size: 1.5em; /* Increase the size of the bullet */
+    color: var(--font-color); /* Optionally change the color */
+  }
+
+  @media (max-width: 861px) {
+    .privacy-data{
+        font-size: medium;    
+    }
+  }
+

@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer">
             {/* console.log(isDarkMode); */}
 			<div className="beatTheLuck">
-				Beat The Luck Dave <br />
+				<Link to="/privacy_policy" style={{color:"black", textDecoration: "none"}}>Privacy Policy</Link> 
 				davetocrackcode@gmail.com <br />
 				
 			</div>
@@ -27,7 +27,10 @@ const Footer = () => {
 			</div>
 
 			<div className="beatTheLuck">
-			Made with ❤ by Noddy
+			Copyright © 2024 Dave To Crack Code. All Rights Reserved.<br />
+			Beat The Luck Dave <br />
+			Made with ❤ by Noddy 
+			
 			</div>
 
 		</div>

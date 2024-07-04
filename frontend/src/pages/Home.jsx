@@ -11,7 +11,7 @@ const Home = () => {
   const token = localStorage.getItem("token");
   let isLoggedIn = token == null ? false : true;
   //console.log("efefe", isLoggedIn);
-  console.log("tokennn ", token);
+  // console.log("tokennn ", token);
   const handleSignUp = async (event) => {
     event.preventDefault();
     try {
