@@ -27,7 +27,7 @@ const Footer = () => {
 			</div>
 
 			<div className="beatTheLuck">
-			Copyright © 2024 Dave To Crack Code. All Rights Reserved.<br />
+			{/* Copyright © 2024 Dave To Crack Code. All Rights Reserved.<br /> */}
 			Beat The Luck Dave <br />
 			Made with ❤ by Noddy 
 			
