@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer">
             {/* console.log(isDarkMode); */}
 			<div className="beatTheLuck">
-				<Link to="/privacy_policy" style={{color:"black", textDecoration: "none"}}>Privacy Policy</Link> 
+				<Link className="privacy_link" to="/privacy_policy" style={{textDecoration: "none"}}>Privacy Policy</Link> 
 				davetocrackcode@gmail.com <br />
 				
 			</div>

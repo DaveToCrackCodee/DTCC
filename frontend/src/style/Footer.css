@@ -44,6 +44,10 @@
 	/* font-weight: bold; */
 }
 
+.privacy_link{
+	color: var(--font-color);
+}
+
 @media (max-width: 861px) {
 .footer{
     flex-direction: column;
