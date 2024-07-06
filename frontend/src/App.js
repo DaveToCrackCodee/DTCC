@@ -120,44 +120,44 @@ const App = () => {
           <Route
             path="/arraystl"
             element={
-               <Protected>
+              //  <Protected>
                 <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
                   <ArrayStl />
                 </Layout>
-                </Protected> 
+                // </Protected> 
             }
           />
 
           <Route
             path="/recursion"
             element={
-              <Protected>
+              // <Protected>
                 <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
                   <Recursion />
                 </Layout>
-                </Protected> 
+                // </Protected> 
             }
           />
 
           <Route
             path="/sorting"
             element={
-              <Protected>
+              // <Protected>
                 <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
                   <Sorting />
                 </Layout>
-              </Protected> 
+              // </Protected> 
             }
           />
 
           <Route
             path="/searching"
             element={
-              <Protected>
+              // <Protected>
                 <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
                   <Searching />
                 </Layout>
-              </Protected>
+              // </Protected>
             }
           />
         </Routes>
