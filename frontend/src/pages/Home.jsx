@@ -113,7 +113,14 @@ const Home = () => {
           platforms like <b>CodeChef</b>, <b>LeetCode</b> and <b>Codeforces</b>{" "}
           in one convenient location! <br />
           <br />
-          {isLoggedIn ? (
+          <Link
+              className="button-home"
+              style={{ textDecoration: "none" }}
+              to="/contestcoding"
+            >
+              Contest Coding
+          </Link>
+          {/* {isLoggedIn ? (
             <Link
               className="button-home"
               style={{ textDecoration: "none" }}
@@ -132,7 +139,7 @@ const Home = () => {
                 Login to Unlock!
               </Link>
             </>
-          )}
+          )} */}
         </div>
       </div>
 

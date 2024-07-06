@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Dsa from "./pages/Dsa";
 import ArrayStl from "./pages/ArrayStl";
 import Recursion from "./pages/Recursion";
-import ScrollToTop from "./component/ScrollToTop";
+// import ScrollToTop from "./component/ScrollToTop";
 import Sorting from "./pages/Sorting";
 import Searching from "./pages/Searching";
 import ContestCoding from "./pages/ContestCoding";
@@ -31,7 +31,7 @@ const App = () => {
     <>
       <Router>
         <Toaster />
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         <Routes>
           <Route
             path="/"
@@ -98,11 +98,11 @@ const App = () => {
           <Route
             path="/contestcoding"
             element={
-               <Protected>
+              //  <Protected>
                 <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
                   <ContestCoding />
                 </Layout>
-                  </Protected> 
+                  // </Protected> 
             }
           />
 

@@ -216,7 +216,7 @@ const ContestCoding = () => {
         <thead>
           <tr>
             <th colSpan={5}>
-              <h2>Leetcode Upcoming Contests</h2>
+              <h2>Leetcode Upcoming Weekly Contests</h2>
             </th>
           </tr>
           <tr>
