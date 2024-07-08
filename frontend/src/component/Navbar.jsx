@@ -68,9 +68,7 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
                 Logout
               </Link>
             </div>
-            <div className="headerelements">
-              <Link to="/contestcoding">Contest Coding</Link>
-            </div>
+            
           </>
         )}
         {!isLoggedIn && (
@@ -80,6 +78,9 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
             </div>
           </>
         )}
+        <div className="headerelements">
+              <Link to="/contestcoding">Contest Coding</Link>
+        </div>
         <div className="headerelements">
           <Link to="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA">
             Youtube

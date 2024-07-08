@@ -10,12 +10,21 @@
     height: max-content;
 }
 
+
 .privacy-data{
    text-align: left;
    font-size: large;
    line-height: 1.9;
     height: 100%;
     width: 80%;
+}
+
+.privacy_link{
+	color: var(--font-color);
+}
+
+.privacy_link:hover{
+	color: blue;
 }
 
 .privacy-data ul{
