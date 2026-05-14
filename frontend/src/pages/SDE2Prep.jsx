@@ -77,7 +77,7 @@ const progressPercentage = Math.round(
   return (
     <div className="sde2-wrapper">
       <div className="hero-box">
-        <h1>Dave to Crack Interview for SDE 2</h1>
+        <h1>Dave to Crack Interview for SDE 2/3</h1>
 
         <p>
           A complete roadmap for job switchers targeting SDE 2 interviews with
@@ -85,6 +85,7 @@ const progressPercentage = Math.round(
           contests and interview level problem solving.
         </p>
       </div>
+      
 
       <div className="stats-grid">
         <div className="stats-card">
@@ -136,11 +137,11 @@ const progressPercentage = Math.round(
         </tbody>
       </table>
 
-      <h2 className="sde2-heading">Aiming for SDE 2</h2>
+      <h2 className="sde2-heading">Aiming for Promotions?</h2>
 
       <div className="content-box">
         Dynamic Programming and Graphs are prioritized because they provide the
-        highest return for SDE 2 coding interviews. Low Level Design and High
+        highest return for SDE 2/3 coding interviews. Low Level Design and High
         Level Design are gradually introduced to strengthen scalable thinking
         and machine coding skills.
         <br />
@@ -184,6 +185,25 @@ const progressPercentage = Math.round(
           </ul>
         </div>
       </div>
+
+      <div className="motivation-box">
+  <h2>Consistency Beats Intensity</h2>
+
+  <p>
+    Complete each week consistently and track your roadmap progress.
+  </p>
+
+  <div className="progress-container">
+    <div
+      className="progress-bar"
+      style={{ width: `${progressPercentage}%` }}
+    ></div>
+  </div>
+
+  <p className="progress-text">
+    {completedCount} / {weeklyPlan.length} Weeks Completed
+  </p>
+</div>
 
       <h2 className="sde2-heading">12 Week Execution Plan</h2>
 
@@ -252,27 +272,10 @@ const progressPercentage = Math.round(
   </div>
 </div>
 
-      <div className="motivation-box">
-  <h2>Consistency Beats Intensity</h2>
-
-  <p>
-    Complete each week consistently and track your roadmap progress.
-  </p>
-
-  <div className="progress-container">
-    <div
-      className="progress-bar"
-      style={{ width: `${progressPercentage}%` }}
-    ></div>
-  </div>
-
-  <p className="progress-text">
-    {completedCount} / {weeklyPlan.length} Weeks Completed
-  </p>
-</div>
+      
 
       <div className="footer-box">
-        Made for Job Switchers 🚀 | by Akash Dave
+        Specially made for Job Switchers 🚀 
       </div>
     </div>
   );
