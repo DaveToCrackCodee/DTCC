@@ -91,6 +91,9 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
           <Link to="/dsa">DSA</Link>
         </div>
         <div className="headerelements">
+          <Link to="/sde2prep">SDE2 Prep</Link>
+        </div>
+        <div className="headerelements">
           <Link to="/">Home</Link>
         </div>
       </div>
@@ -109,6 +112,7 @@ const Navbar = ({ isDarkMode, toggleMode }) => {
             <img src={darkMode} style={{ height: "20px" }} alt="" />
           </div>
           <Link to="/">Home</Link>
+          <Link to="/sde2prep">SDE2 Prep</Link>
           <Link to="/dsa">DSA</Link>
           <Link to="/contestcoding">Contest Coding</Link>
           <Link to="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA">

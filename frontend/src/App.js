@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Dsa from "./pages/Dsa";
 import ArrayStl from "./pages/ArrayStl";
+import SDE2Prep from "./pages/SDE2Prep";
 import Recursion from "./pages/Recursion";
 // import ScrollToTop from "./component/ScrollToTop";
 import Sorting from "./pages/Sorting";
@@ -90,6 +91,17 @@ const App = () => {
               // <Public>
                 <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
                   <Dsa />
+                </Layout>
+              // </Public>
+            }
+          />
+
+         <Route
+            path="/sde2prep"
+            element={
+              // <Public>
+                <Layout isDarkMode={isDarkMode} toggleMode={toggleMode}>
+                  <SDE2Prep  />
                 </Layout>
               // </Public>
             }

@@ -150,7 +150,7 @@ const Home = () => {
           </div>
 
           <div className="akash_block">
-            "Hello, I'm Akash Dave Post Graduated from NIT Trichy. I
+            "Hello, I'm Akash Dave working in Amazon as an SDE1, Post Graduated from NIT Trichy. I
             achieved AIR-22 in NIMCET 2021, AIR-3 in BHU MCA CET, and AIR-6 in
             MHCET. I've interned at Amazon as SDE, gaining valuable experience.
             'Dave to Crack Code' is my initiative, aiming to simplify coding,
